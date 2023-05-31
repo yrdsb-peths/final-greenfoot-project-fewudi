@@ -1,5 +1,5 @@
 #Greenfoot project file
-class.Background.image=space1.jpg
+class.Background.image=Background_city_night.png
 class.Ground.image=Wooden_Platform2-removebg-preview.png
 class.Player.image=elephant_idle.png
 dependency1.from=Background
