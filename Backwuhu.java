@@ -16,7 +16,10 @@ public class Backwuhu extends Actor
     {
         // Add your action code here.
         if(Greenfoot.isKeyDown("D")){
-            move(-2);
+            move(-10);
+        }
+        if(getX() == 0){
+            setLocation(getWorld().getWidth(), Greenfoot.getRandomNumber(400) + 30);
         }
     }
 }

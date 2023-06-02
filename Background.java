@@ -86,5 +86,15 @@ public class Background extends World
         addObject(cloud5,785,28);
         Cloud cloud6 = new Cloud();
         addObject(cloud6,896,114);
+        Backwuhu backwuhu = new Backwuhu();
+        addObject(backwuhu,818,460);
+        Backwuhu backwuhu2 = new Backwuhu();
+        addObject(backwuhu2,476,491);
+        Backwuhu backwuhu3 = new Backwuhu();
+        addObject(backwuhu3,190,389);
+        Backwuhu backwuhu4 = new Backwuhu();
+        addObject(backwuhu4,716,553);
+        Backwuhu backwuhu5 = new Backwuhu();
+        addObject(backwuhu5,482,384);
     }
 }
