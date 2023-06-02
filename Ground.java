@@ -14,11 +14,20 @@ public class Ground extends Actor
      */
     
     public Ground(){
-        getImage().scale(getImage().getWidth() / 5, getImage().getHeight()/4);
+        getImage().scale(getImage().getWidth() / 5, getImage().getHeight()/6);
     }
     
     public void act()
     {
         // Add your action code here.
+        if(Greenfoot.isKeyDown("A"))
+        {
+            move(4);
+            
+            //facing = "left";
+        }else if(Greenfoot.isKeyDown("D")){
+            move(-4);
+            //facing = "right";
+        }
     }
 }

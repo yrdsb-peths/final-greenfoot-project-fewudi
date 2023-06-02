@@ -16,7 +16,7 @@ public class Background extends World
     public Background()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 400, 1); 
+        super(1000, 600, 1); 
         prepare();
     }
     
@@ -44,5 +44,47 @@ public class Background extends World
         ground2.setLocation(302,152);
         ground.setLocation(148,144);
         player2.setLocation(67,109);
+        ground.setLocation(91,348);
+        ground2.setLocation(300,298);
+        ground.setLocation(179,340);
+        ground2.setLocation(268,302);
+        Ground ground3 = new Ground();
+        addObject(ground3,540,263);
+        ground3.setLocation(492,261);
+        Ground ground4 = new Ground();
+        addObject(ground4,697,352);
+        ground4.setLocation(672,351);
+        player2.setLocation(79,294);
+        ground2.setLocation(277,297);
+        ground.setLocation(124,352);
+        ground2.setLocation(306,295);
+        ground2.setLocation(297,273);
+        ground3.setLocation(436,201);
+        ground4.setLocation(663,341);
+        Cloud cloud = new Cloud();
+        addObject(cloud,140,67);
+        Cloud cloud2 = new Cloud();
+        addObject(cloud2,309,22);
+        Cloud cloud3 = new Cloud();
+        addObject(cloud3,618,96);
+        Cloud cloud4 = new Cloud();
+        addObject(cloud4,448,85);
+        cloud3.setLocation(652,59);
+        cloud4.setLocation(459,71);
+        cloud.setLocation(112,84);
+        cloud2.setLocation(315,19);
+        cloud3.setLocation(637,55);
+        cloud4.setLocation(468,74);
+        ground.setLocation(118,504);
+        ground2.setLocation(333,436);
+        ground4.setLocation(513,370);
+        ground3.setLocation(455,323);
+        ground4.setLocation(652,378);
+        ground3.setLocation(531,313);
+        player2.setLocation(62,462);
+        Cloud cloud5 = new Cloud();
+        addObject(cloud5,785,28);
+        Cloud cloud6 = new Cloud();
+        addObject(cloud6,896,114);
     }
 }
