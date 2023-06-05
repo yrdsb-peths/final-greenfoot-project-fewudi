@@ -35,11 +35,11 @@ public class Player extends Actor
     public void move(){
         if(Greenfoot.isKeyDown("A"))
         {
-            move(-4);
+            move(-2);
             
             //facing = "left";
         }else if(Greenfoot.isKeyDown("D")){
-            move(4);
+            move(2);
             //facing = "right";
         }
         
