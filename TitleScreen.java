@@ -25,7 +25,12 @@ public class TitleScreen extends World
     }
     
     public void act(){
-        Greenfoot
+        if(Greenfoot.isKeyDown("3")){
+            Background gameWorld = new Background();
+            Greenfoot.setWorld(gameWorld);
+        }
+        
+        
         
     }
     
