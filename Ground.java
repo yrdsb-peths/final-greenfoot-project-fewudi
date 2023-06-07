@@ -29,5 +29,11 @@ public class Ground extends Actor
             move(-4);
             //facing = "right";
         }
+        if(Greenfoot.isKeyDown("D")){
+            move(-6);
+        }
+        if(getX() == 0){
+            setLocation(getWorld().getWidth(), Greenfoot.getRandomNumber(400) + 30);
+        }
     }
 }
