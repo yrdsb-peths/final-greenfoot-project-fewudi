@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * The game world settings 
+ * The game world settings while the game is running
  * 
  * @author (your name) Felix Peng 
  * @version (a version number or a date)June 8

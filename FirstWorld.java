@@ -23,7 +23,7 @@ public class FirstWorld extends World
         Label welcomeLabel = new Label("Google offline Game deluxe Edition.", 40);
         addObject(welcomeLabel, 300, 100);
         
-       
+        backgroundMusic.playLoop();
         
         Kangroo kangaroo = new Kangroo();
         addObject(kangaroo, 300, 220);
