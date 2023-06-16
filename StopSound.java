@@ -15,5 +15,15 @@ public class StopSound extends Actor
     public void act()
     {
         // Add your action code here.
+        if(Greenfoot.mouseClicked(this)) {
+            FirstWorld.stop();
+        }
+    }
+    
+    public StopSound()
+    {
+        GreenfootImage img = new GreenfootImage("VolumeNo v2.png");
+        img.scale(img.getWidth()/5, img.getHeight()/5);
+        setImage(img);
     }
 }

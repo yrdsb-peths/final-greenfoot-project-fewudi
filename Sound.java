@@ -15,5 +15,15 @@ public class Sound extends Actor
     public void act()
     {
         // Add your action code here.
+        if(Greenfoot.mouseClicked(this)) {
+            FirstWorld.music();
+        }
+    }
+    
+    public Sound()
+    {
+        GreenfootImage img = new GreenfootImage("Volume v2.png");
+        img.scale(img.getWidth()/5, img.getHeight()/5);
+        setImage(img);
     }
 }

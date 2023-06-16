@@ -15,5 +15,15 @@ public class Return extends Actor
     public void act()
     {
         // Add your action code here.
+   
+        if (Greenfoot.mouseClicked(this)) {
+            Greenfoot.setWorld(new TitleScreen());
+        }
+    }
+    public Return()
+    {
+        GreenfootImage img = new GreenfootImage("return.png");
+        img.scale(img.getWidth()/7, img.getHeight()/7);
+        setImage(img);
     }
 }

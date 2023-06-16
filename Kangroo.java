@@ -96,8 +96,8 @@ public class Kangroo extends Actor
         setRotation(270);
         for(int i = 0; i < jump.length; i++)
         {
-            jump[i] = new GreenfootImage("images/Horse/jump" + i + ".png");
-            jump[i].scale(60, 80);
+            jump[i] = new GreenfootImage("images/xioahuai/paoku_0" + i + ".png");
+            jump[i].scale(65, 65);
             
             animationTimer.mark();
             

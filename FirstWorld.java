@@ -20,13 +20,13 @@ public class FirstWorld extends World
         super(600, 330, 1);
         
         
-        Label welcomeLabel = new Label("Choose a game.", 40);
+        Label welcomeLabel = new Label("Google offline Game deluxe Edition.", 40);
         addObject(welcomeLabel, 300, 100);
         
        
         
         Kangroo kangaroo = new Kangroo();
-        addObject(kangaroo, 450, 220);
+        addObject(kangaroo, 300, 220);
         
         Sound sound = new Sound();
         addObject(sound, 40, 290);
@@ -34,13 +34,13 @@ public class FirstWorld extends World
         StopSound stopsound = new StopSound();
         addObject(stopsound, 100, 290);
         
-        Label playThis3 = new Label("to play this", 20);
-        addObject(playThis3, 450, 260);
+        Label playThis3 = new Label("to play this press <space> or click", 20);
+        addObject(playThis3, 300, 260);
     }
     public void act()
     {
         
-        if(Greenfoot.isKeyDown("3") || Greenfoot.mouseClicked(Kangroo.class)) {
+        if(Greenfoot.isKeyDown("space") || Greenfoot.mouseClicked(Kangroo.class)) {
             TitleScreen titleScreen = new TitleScreen();
             Greenfoot.setWorld(titleScreen);
         }
