@@ -74,7 +74,7 @@ public class Kangroo extends Actor
                 // System.out.println(live);
                 if(!dodgeButton() && live == 0) {
                     alive = false;
-                    HMGameOver gameOverWorld = new HMGameOver();
+                    GameOver gameOverWorld = new GameOver();
                     Greenfoot.setWorld(gameOverWorld);
                 } else if(dodgeButton()) {
                     alive = true;
@@ -91,7 +91,7 @@ public class Kangroo extends Actor
     /**
      * Constructor - The code that gets run one time when object is created.
      */
-    public Kangaroo()
+    public Kangroo()
     {
         setRotation(270);
         for(int i = 0; i < jump.length; i++)
